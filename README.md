@@ -11,7 +11,7 @@ The files are:
 * `lib_epidemic.lua` Implements an Epidemic networking algorithm. It's used as a library by the `rw_epidemic.lua` simulator.
 * `lib_rw.lua` Implements a Random Waypoint mobility model. It's used as a library by the `rw_epidemic.lua` simulator.
 
-To execute, edit the configuration parameters in the script and run `lua markov_norden.lua` or `lua rw_epidemic.lua`. The results are written to the standard output, so you might want to redirect it to a file.
+To execute, edit the configuration parameters in the scripts and run `lua markov_norden.lua` or `lua rw_epidemic.lua`. Some results are written to the standard output, so you might want to redirect it to a file.
 
 ---
 
