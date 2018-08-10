@@ -1,10 +1,10 @@
 -- Configuiration parameters
 local params = {
-  N = 100,
-  Q = 0.3,
-  lambda = 0.1,
-  runs = 10000, --max number of runs 
-  totaltime = 6000, --600 max simulation time s
+  N = 100, -- number of states
+  Q = 0.3, -- Q is the endemic fraction of the population.
+  lambda = 0.1, -- encounterrate
+  runs = 10000, -- max number of runs 
+  totaltime = 6000, -- 600 max simulation time s
 }
 
 local random, sqrt, PI, exp, log = math.random, math.sqrt, math.pi, math.exp, math.log
