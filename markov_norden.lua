@@ -1,19 +1,19 @@
+-- Configuiration parameters
+local params = {
+  N = 100,
+  Q=0.3,  -- 0..1.0
+  lambda=0.1,
+  runs = 10000, --max number of runs 
+  totaltime = 6000, --600 max simulation time s
+}
+
+
 
 local random, sqrt, PI, exp, log = math.random, math.sqrt, math.pi, math.exp, math.log
 
 local sample_exp_distribution = require ('mathutil').sample_exp_distribution
 local avgstd = require ('mathutil').avgstd
 local productory = require ('mathutil').productory
-
-local params = {
-  N = 100,
-  --OM
-  Q=0.3,     -- 0 .. 1.0
-  lambda=0.1,
-  
-  runs = 10000, --100000, --max runs 
-  totaltime = 6000, --600 max time s
-}
 
 local function precomupute_params (params)
   local N, Q, lambda = params.N, params.Q, params.lambda

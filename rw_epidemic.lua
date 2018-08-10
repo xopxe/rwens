@@ -4,12 +4,12 @@ local out_path='/home/jvisca/modelrun/'
 
 ----------------------------------------
 --mobility
-local w = 1000 --area side (m)
-local R = 40   --node range (m)
-local v = 1    --speed (m/s)
-local L = 500  --epoch length (m)
-local T = 500000-- 5 000 000    --time window (s)
-local t_step = 0.1  --time step (s)
+local w = 1000     --area side (m)
+local R = 40       --node range (m)
+local v = 1        --speed (m/s)
+local L = 500      --epoch length (m)
+local T = 500000   --time window (s)
+local t_step = 0.1 --time step (s)
 ----------------------------------------
 
 ----------------------------------------
