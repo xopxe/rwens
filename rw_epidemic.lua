@@ -1,6 +1,4 @@
-#!/bin/lua
-
-local out_path='/home/jvisca/modelrun/'
+local out_path='./'
 
 ----------------------------------------
 --mobility

@@ -1,13 +1,11 @@
 -- Configuiration parameters
 local params = {
   N = 100,
-  Q=0.3,  -- 0..1.0
-  lambda=0.1,
+  Q = 0.3,
+  lambda = 0.1,
   runs = 10000, --max number of runs 
   totaltime = 6000, --600 max simulation time s
 }
-
-
 
 local random, sqrt, PI, exp, log = math.random, math.sqrt, math.pi, math.exp, math.log
 
